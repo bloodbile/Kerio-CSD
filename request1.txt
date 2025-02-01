@@ -1,0 +1,21 @@
+POST /webmail/generatedDefaults.js HTTP/1.1
+Host: 139.216.175.110
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.86 Safari/537.36
+Connection: keep-alive
+Cache-Control: max-age=0
+Referer: https://139.216.175.110/webmail/login/
+Content-Length: 355
+Content-Type: application/x-www-form-urlencoded
+
+GET /aaehexj6ue?aaehexj6ue=aaehexj6ue HTTP/1.1
+Host: 139.216.175.110
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.86 Safari/537.36
+Connection: keep-alive
+Cache-Control: max-age=0
+X: de5s88klhv

@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: Keep-Alive
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' *.kerio.com *.microsoft.com login.microsoftonline.com; img-src * http: https: data: *.kerio.com;
+Content-Type: text/javascript
+Date: Sat, 1 Feb 2025 04:02:51 GMT
+Expires: Wed, 4 Jun 1980 06:02:09 GMT
+Keep-Alive: timeout=15, max=99
+Pragma: no-cache
+Server: Kerio Connect 10.0.3 patch 1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1; mode=block
+Content-Length: 1187
+
+window.kerio = window.kerio || {};
+kerio.lib = kerio.lib || {};
+kerio.engine = 
+{
+	settings: {
+		webmail: {
+		}
+	},
+	constants: {
+		ACCEPT_LANGUAGES: ['en', 'en'],
+		SUPPORTED_LANGUAGES: ['cs', 'de', 'en', 'en', 'es', 'fr', 'hr', 'hu', 'it', 'ja', 'nl', 'pl', 'pt', 'ru', 'sk', 'sv', 'zh'],
+		DETECTED_LANGUAGE: "en",
+		DEFAULT_TIME_ZONE: "(GMT +10:00) Canberra, Melbourne, Sydney",
+		DETECTED_LOCALES: "en-us",
+		IS_NATIVE_HTML_PARSER_ENABLED: true,
+		IS_MULTI_SERVER: false,
+		CUSTOM_LOGIN_LOGO_URL: "/custom/webmail/img/loginlogo_d5a26.png",
+		CUSTOM_LOGIN_TEXT_COLOR: "#FFFFFF",
+		CUSTOM_LOGIN_BACKGROUND_COLOR: "#422A2F",
+		CUSTOM_LOGIN_ADDITIONAL_INFO: "\u003Cfont color=\"#333333\"\u003E\u200b\u003Cspan lang=\"EN-AU\"\u003E\u003Ca href=\"http://www.miinet.com/\"\u003E\u003Cfont color=\"#333333\" face=\"Tahoma\"\u003E\u003Cspan lang=\"EN\"\u003Ewww.miinet.com\u003C/span\u003E\u003C/font\u003E\u003C/a\u003E\u003C/span\u003E\u003C/font\u003E",
+		CUSTOM_CLIENT_LOGO_URL: "",
+		DISPLAY_MESSAGE_STATUS: false
+	},
+	ssoLogin: {
+		offerUsernamePassword: "",
+		AssertionConsumerURL: "https://139.216.175.110/webmail/sso/jwt",
+		identityProviders: []
+	}
+};
