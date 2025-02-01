@@ -26,7 +26,6 @@ kerio.engine =
 		ACCEPT_LANGUAGES: ['en', 'en'],
 		SUPPORTED_LANGUAGES: ['cs', 'de', 'en', 'en', 'es', 'fr', 'hr', 'hu', 'it', 'ja', 'nl', 'pl', 'pt', 'ru', 'sk', 'sv', 'zh'],
 		DETECTED_LANGUAGE: "en",
-		DEFAULT_TIME_ZONE: "(GMT +10:00) Canberra, Melbourne, Sydney",
 		DETECTED_LOCALES: "en-us",
 		IS_NATIVE_HTML_PARSER_ENABLED: true,
 		IS_MULTI_SERVER: false,
